@@ -26,7 +26,7 @@ public class ContactServiceImpl implements ContactService {
   @Override
   public String updateContact(long contactId, Contact updateContact) {
     Contact contacts = contactRepository.findById(contactId).orElseThrow(
-            () -> new ResourceNotFoundException("Contact is not exists with a given id:"+ contactId)
+            () -> new ResourceNotFoundException("Contact does not exists with a given id:"+ contactId)
     );
 
     contacts.setName(updateContact.getName());

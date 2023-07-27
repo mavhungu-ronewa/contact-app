@@ -1,3 +1,3 @@
-# Contact App
+# Spring Framework Contact App
 
 ## Mavhungu Ronewa
