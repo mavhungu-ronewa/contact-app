@@ -10,7 +10,7 @@ import java.util.List;
 
 @Service
 public class ContactServiceImpl implements ContactService {
-  private ContactRepository contactRepository;
+  private final ContactRepository contactRepository;
 
   @Autowired
   public ContactServiceImpl(ContactRepository contactRepository) {
