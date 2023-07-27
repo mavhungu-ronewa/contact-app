@@ -1,9 +1,9 @@
 package com.ronewa.udemy.services;
 
 import com.ronewa.udemy.domain.Contact;
+import com.ronewa.udemy.exception.ResourceNotFoundException;
 import com.ronewa.udemy.repositories.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
